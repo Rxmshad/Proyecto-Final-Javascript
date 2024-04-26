@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8c130e0191.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="icon" href="../img/logo-mate.svg">
+    <title>Productos - Matero</title>
+</head>
+<body class="inicioPrincipal">
+    <nav class="inicioPrincipal__nav">
+      <div class="navBar-titulo">
+        <img src="../img/mate-2.svg" alt="logo mate" class="logoMate"><h1 class="tituloPagina">Matero</h1> 
+      </div>
+      <div>
+          <ul class="inicioPrincipal__nav--logCarrito">
+              <li><a href="../index.html"><i class="fa-solid fa-house"></i></a></li>
+              <li><a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" id="carrito">
+                <i class="fa-solid fa-cart-shopping"></i></a></li>
+              <li><a href="login.html"><i class="fa-solid fa-user"></i></a></li>
+          </ul>
+      </div>
+    </nav>
+
+    <main class="inicioPrincipalProductos__info">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../img/mate-carrousel.jpg" class="d-block w-100 imgCarrousel" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/termo-carrousel.jpg" class="d-block w-100 imgCarrousel" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/yerba-organica-carrousel.jpg" class="d-block w-100 imgCarrousel" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+        <h2 class="separadorSecciones">Nuestros Productos</h2>
+    
+        <div class="tarjetasMuestra" id="mostrarProducto">
+
+        </div>
+
+        <div class="modal fade modal-lg" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Mi Carrito</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div id="cuerpoCarrito">
+  
+                  
+
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" id="vaciarCarrito">Vaciar Carrito</button>
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Seguir Comprando</button>
+                <button type="button" class="btn btn-primary" id="finalizarCompra">Finalizar Compra</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+    
+    <footer class="inicioPrincipal__footer">
+      <div class="navBar-titulo">
+        <img src="../img/mate-2.svg" alt="logo mate" class="logoMate"><h1 class="tituloPagina">Matero</h1> 
+      </div>
+      <p class="derechosReservados">Derechos Reservados 2022 ©</p>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,497 @@
+[
+    {
+        "tipo": "yerba",
+        "nombre": "Yerba Canarias Sabor Tradicional",
+        "marca": "Canarias",
+        "peso": "1000gr",
+        "precio": 1415,
+        "img": "yerba-canarias.jpg"
+    },
+    {
+        "tipo": "yerba",
+        "nombre": "Yerba Amanda Selección Especial",
+        "marca": "Amanda",
+        "peso": "1000gr",
+        "precio": 820,
+        "img": "yerba-amanda.jpg"
+    },
+    {
+        "tipo": "yerba",
+        "nombre": "Yerba La Tranquera Selección",
+        "marca": "La Tranquera",
+        "peso": "1000gr",
+        "precio": 900,
+        "img": "yerba-tranquera.jpg"
+    },
+    {
+        "tipo": "yerba",
+        "nombre": "Yerba Mate Orgánica Porongo",
+        "marca": "Porongo",
+        "peso": "500gr",
+        "precio": 850,
+        "img": "yerba-porongo.jpg"
+    },
+    {
+        "tipo": "yerba",
+        "nombre": "Yerba Mate Romance",
+        "marca": "Romance",
+        "peso": "2000gr",
+        "precio": 1500,
+        "img": "yerba-romance.jpg"
+    },
+    {
+        "tipo": "yerba",
+        "nombre": "Yerba Mate Mañanita(1000gr)",
+        "marca": "Mañanita",
+        "peso": "1000gr",
+        "precio": 999,
+        "img": "yerba-mananita.jpg"
+    },
+    {
+        "tipo": "yerba",
+        "nombre": "Yerba Mate Mañanita(500gr)",
+        "marca": "Mañanita",
+        "peso": "500gr",
+        "precio": 599,
+        "img": "yerba-mananita.jpg"
+    },
+    {
+        "tipo": "yerba",
+        "nombre": "Yerba Mate Playadito",
+        "marca": "Playadito",
+        "peso": "500gr",
+        "precio": 422,
+        "img": "yerba-playadito.jpg"
+    },
+    {
+        "tipo": "yerba",
+        "nombre": "Yerba Cruz de Malta Selección",
+        "marca": "Cruz de Malta",
+        "peso": "1000gr",
+        "precio": 735,
+        "img": "yerba-cruzmalta.jpg"
+    },
+    {
+        "tipo": "yerba",
+        "nombre": "Nobleza Gaucha Selección(1000gr)",
+        "marca": "Nobleza Gaucha",
+        "peso": "1000gr",
+        "precio": 782,
+        "img": "yerba-nobleza.jpg"
+    },
+    {
+        "tipo": "yerba",
+        "nombre": "Nobleza Gaucha Selección Especial(500gr)",
+        "marca": "Nobleza Gaucha",
+        "peso": "500gr",
+        "precio": 408,
+        "img": "yerba-nobleza.jpg"
+    },
+    {
+        "tipo": "yerba",
+        "nombre": "Yerba Mate Taragui(1000gr)",
+        "marca": "Taragui",
+        "peso": "1000gr",
+        "precio": 781,
+        "img": "yerba-taragui.jpg"
+    },
+    {
+        "tipo": "yerba",
+        "nombre": "Yerba Mate Taragui(500gr)",
+        "marca": "Taragui",
+        "peso": "500gr",
+        "precio": 381,
+        "img": "yerba-taragui.jpg"
+    },
+    {
+        "tipo": "yerba",
+        "nombre": "Yerba Mate Rosamonte Selección(1000gr)",
+        "marca": "Rosamonte",
+        "peso": "1000gr",
+        "precio": 854,
+        "img": "yerba-rosamonte.jpg"
+    },
+    {
+        "tipo": "yerba",
+        "nombre": "Yerba Mate Rosamonte Selección(500gr)",
+        "marca": "Rosamonte",
+        "peso": "500gr",
+        "precio": 520,
+        "img": "yerba-rosamonte.jpg"
+    },
+    {
+        "tipo": "yerba",
+        "nombre": "Yerba Mate Piporé",
+        "marca": "Piporé",
+        "peso": "500gr",
+        "precio": 599,
+        "img": "yerba-pipore.jpg"
+    },    
+    {
+        "tipo": "bombilla",
+        "nombre": "Bombilla Lago Mate Pico De Loro Acero Inoxidable",
+        "marca": "Lago",
+        "modelo": "Pico de Loro",
+        "precio": 999,
+        "img": "bombilla-lago-loro.jpg"
+    },
+    {
+        "tipo": "bombilla",
+        "nombre": "Bombilla Matte Acero Inoxidable Resorte Chata Plana",
+        "marca": "Matte",
+        "modelo": "Plana Resorte",
+        "precio": 1350,
+        "img": "bombilla-matte-plana.jpg"
+    },
+    {
+        "tipo": "bombilla",
+        "nombre": "Bombilla Global Ross Mate Chata Acero Inoxidable Plana Calidad Premium",
+        "marca": "Global Ross",
+        "modelo": "Plana",
+        "precio": 399,
+        "img": "bombilla-ross-plana.jpg"
+    },
+    {
+        "tipo": "bombilla",
+        "nombre": "Bombilla Stanley Classic Spring Regulable",
+        "marca": "Stanley",
+        "modelo": "Plana Resorte",
+        "precio": 6700,
+        "img": "bombilla-stanley.jpg"
+    },
+    {
+        "tipo": "bombilla",
+        "nombre": "Bombilla Alacuero Acero Inoxidable Pico De Rey",
+        "marca": "Alacuero",
+        "modelo": "Pico de Rey",
+        "precio": 950,
+        "img": "bombilla-alacuero-rey.jpg"
+    },
+    {
+        "tipo": "bombilla",
+        "nombre": "Bombilla Matucha Pico De Loro Tipo Cuchara Acero Niquelada",
+        "marca": "Matucha",
+        "modelo": "Pico de Loro",
+        "precio": 800,
+        "img": "bombilla-matucha.jpg"
+    },
+    {
+        "tipo": "bombilla",
+        "nombre": "Bombilla Un Mate Mate Acero Inoxidable",
+        "marca": "Un Mate",
+        "modelo": "Plana",
+        "precio": 1680,
+        "img": "bombilla-unmate-plana.jpg"
+    },
+    {
+        "tipo": "bombilla",
+        "nombre": "Bombilla Mate Loekemeyer Autolimpiante Acero Inoxidable",
+        "marca": "Loekemeyer",
+        "modelo": "Autolimpiante Resorte",
+        "precio": 725,
+        "img": "bombilla-loekemeyer-autolimpiante.jpg"
+    },
+    {
+        "tipo": "bombilla",
+        "nombre": "Bombilla Mate Acero Sistema Saca Yerba",
+        "marca": "Mate Urbano",
+        "modelo": "Sacayerba",
+        "precio": 399,
+        "img": "bombilla-mateurbano-sacayerba.jpg"
+    },
+    {
+        "tipo": "bombilla",
+        "nombre": "Bombilla Plana De Acero Inoxidable",
+        "marca": "Homeinox",
+        "modelo": "Plana Resorte",
+        "precio": 1485,
+        "img": "bombilla-homeinox-plana.jpg"
+    },
+    {
+        "tipo": "termo",
+        "nombre": "Termo Lumilagro de acero inoxidable",
+        "marca": "Lumilagro",
+        "modelo": "Luminox",
+        "capacidad": "1lt",
+        "precio": 8500,
+        "img": "termo-lumilagro-1lt.jpg"
+    },
+    {
+        "tipo": "termo",
+        "nombre": "Termo Contigo Acero Inoxidable",
+        "marca": "Contigo",
+        "modelo": "2070897",
+        "capacidad": "1.2lt",
+        "precio": 18999,
+        "img": "termo-contigo-1-2lt.jpg"
+    },
+    {
+        "tipo": "termo",
+        "nombre": "Termo Termolar de vidrio",
+        "marca": "Termolar",
+        "modelo": "Chimarrita",
+        "capacidad": "1lt",
+        "precio": 2174,
+        "img": "termo-termolar-1lt.jpg"
+    },
+    {
+        "tipo": "termo",
+        "nombre": "Termo Kovea de Acero Inoxidable",
+        "marca": "Kovea",
+        "modelo": " Black Stone",
+        "capacidad": "0.75lt",
+        "precio": 12697,
+        "img": "termo-kovea-0-75lt.jpg"
+    },
+    {
+        "tipo": "termo",
+        "nombre": "Termo Doite de Acero Inoxidable",
+        "marca": "Doite",
+        "modelo": "Doite Max",
+        "capacidad": "1lt",
+        "precio": 16340,
+        "img": "termo-doite-1lt.jpg"
+    },
+    {
+        "tipo": "termo",
+        "nombre": "Termo Coleman de Acero Inoxidable",
+        "marca": "Coleman",
+        "modelo": "Matero",
+        "capacidad": "1.2lt",
+        "precio": 24499,
+        "img": "termo-coleman-1-2lt.jpg"
+    },
+    {
+        "tipo": "termo",
+        "nombre": "Termos Waterdog de Acero Inoxidable",
+        "marca": "Waterdog",
+        "modelo": "TA A",
+        "capacidad": "1lt",
+        "precio": 13250,
+        "img": "termo-waterdog-1lt.jpg"
+    },
+    {
+        "tipo": "termo",
+        "nombre": "Termo Stanley Clásico con Tapón Cebador de Acero Inoxidable",
+        "marca": "Stanley",
+        "modelo": "Clasico",
+        "capacidad": "1.4lt",
+        "precio": 22999,
+        "img": "termo-stanley-1-4lt.jpg"
+    },
+    {
+        "tipo": "termo",
+        "nombre": "Termo Termolar de Vidrio",
+        "marca": "Termolar",
+        "modelo": "Personal",
+        "capacidad": "1lt",
+        "precio": 1799,
+        "img": "termo-termolar-1lt.jpg"
+    },
+    {
+        "tipo": "termo",
+        "nombre": "Termo Humma Everest de Acero Inoxidable",
+        "marca": "Humma",
+        "modelo": "Everest",
+        "capacidad": "1lt",
+        "precio": 12100,
+        "img": "termo-humma-1lt.jpg"
+    },
+    {
+        "tipo": "termo",
+        "nombre": "Termo Discovery de Acero Inoxidable",
+        "marca": "Discovery",
+        "modelo": "Adventure",
+        "capacidad": "1lt",
+        "precio": 5999,
+        "img": "termo-discovery-1lt.jpg"
+    },
+    {
+        "tipo": "termo",
+        "nombre": "Termo Munich Engomado Acero Doble Capa",
+        "marca": "Munich",
+        "modelo": "Bala",
+        "capacidad": "1lt",
+        "precio": 3699,
+        "img": "termo-munich-1lt.jpg"
+    },
+    {
+        "tipo": "termo",
+        "nombre": "Termo Matelisto Térmico Autocebante Rapimate",
+        "marca": "Pauza",
+        "modelo": "Auto Mate 2.0",
+        "capacidad": "500ml",
+        "precio": 1400,
+        "img": "termo-pauza-500ml.jpg"
+    },
+    {
+        "tipo": "termo",
+        "nombre": "Termo Montagne de Acero Inoxidable Doble Pared",
+        "marca": "Montagne",
+        "modelo": "Bala",
+        "capacidad": "1lt",
+        "precio": 14000,
+        "img": "termo-montagne-1lt.jpg"
+    },
+    {
+        "tipo": "mate",
+        "nombre": "Mate Uruguayo De Calabaza Premium",
+        "marca": "Dos Amigos",
+        "modelo": "Calabaza Camionero",
+        "precio": 3299,
+        "img": "mate-dosamigos.jpg"
+    },
+    {
+        "tipo": "mate",
+        "nombre": "Mate Termico De Acero Inoxidable",
+        "marca": "F&V",
+        "modelo": "Viajero",
+        "precio": 1900,
+        "img": "mate-f&v.jpg"
+    },
+    {
+        "tipo": "mate",
+        "nombre": "Mate Térmico Acero",
+        "marca": "Doro",
+        "modelo": "Acero Termico",
+        "precio": 5298,
+        "img": "mate-doro.jpg"
+    },
+    {
+        "tipo": "mate",
+        "nombre": "Mate Chaco De Cerámica Y Madera",
+        "marca": "Chaco",
+        "modelo": "Chaquito",
+        "precio": 4600,
+        "img": "mate-chaco.jpg"
+    },
+    {
+        "tipo": "mate",
+        "nombre": "Mate Criollo De Ceramica",
+        "marca": "Criollo",
+        "modelo": "Ceramica",
+        "precio": 2849,
+        "img": "mate-criollo.jpg"
+    },
+    {
+        "tipo": "mate",
+        "nombre": "Mate Stanley Acero Inoxidable Térmico",
+        "marca": "Stanley",
+        "modelo": "Clasico",
+        "precio": 11500,
+        "img": "mate-stanley.jpg"
+    },
+    {
+        "tipo": "mate",
+        "nombre": "Mate Discovery de Acero Inoxidable Térmico",
+        "marca": "Discovery",
+        "modelo": "Adventure",
+        "precio": 5999,
+        "img": "mate-discovery.jpg"
+    },
+    {
+        "tipo": "mate",
+        "nombre": "Mate Legion Extranjera de Acero Inoxidable",
+        "marca": "Clasico",
+        "modelo": "Calabaza Camionero",
+        "precio": 6490,
+        "img": "mate-legion.jpg"
+    },
+    {
+        "tipo": "mate",
+        "nombre": "Mate Waterdog Termico de Acero Inoxidable",
+        "marca": "Waterdog",
+        "modelo": "Zoilo",
+        "precio": 4800,
+        "img": "mate-waterdog.jpg"
+    },
+    {
+        "tipo": "mate",
+        "nombre": "Mate Matte de Acero Inoxidable Termico",
+        "marca": "Matte",
+        "modelo": "Vasito",
+        "precio": 3900,
+        "img": "mate-matte.jpg"
+    },
+    {
+        "tipo": "filtro",
+        "nombre": "Filtro Generico Para Bombilla X2",
+        "marca": "Uniprovedores",
+        "modelo": "Uni 2.0",
+        "precio": 274,
+        "img": "filtro-uniproveedores.jpg"
+    },
+    {
+        "tipo": "filtro",
+        "nombre": "Filtro Stop Filt Para Bombilla X2",
+        "marca": "Bazar & Co",
+        "modelo": "Stop Filt",
+        "precio": 690,
+        "img": "filtro-stopfilt.jpg"
+    },
+    {
+        "tipo": "filtro",
+        "nombre": "Filtro Para Bombilla Loekemeyer Set X2",
+        "marca": "Loekemeyer",
+        "modelo": "550D",
+        "precio": 390,
+        "img": "filtro-loekemeyer.jpg"
+    },
+    {
+        "tipo": "filtro",
+        "nombre": "Filtros Costumbres Argentinas Para Bombillas X2",
+        "marca": "Costumbres Argentinas",
+        "modelo": "2230F",
+        "precio": 3900,
+        "img": "filtro-costumbresargentinas.jpg"
+    },
+    {
+        "tipo": "despolvillador",
+        "nombre": "Despolvillador Despol Yerba Mate Saca Polvo",
+        "marca": "Despol",
+        "modelo": "Clasico",
+        "precio": 880,
+        "img": "despolvillador-despol.jpg"
+    },
+    {
+        "tipo": "despolvillador",
+        "nombre": "Despolvillador Artplan Pastel Sacapolvo Yerba",
+        "marca": "Artplan",
+        "modelo": "Clasico",
+        "precio": 510,
+        "img": "despolvillador-artplan.jpg"
+    },
+    {
+        "tipo": "despolvillador",
+        "nombre": "Despolvillador De Polvo Y Vertedor De Yerba Dublin",
+        "marca": "Dublin",
+        "modelo": "Decantador",
+        "precio": 590,
+        "img": "despolvillador-dublin.jpg"
+    },
+    {
+        "tipo": "despolvillador",
+        "nombre": "Despolvillador Florida Yerba Mate Plástico",
+        "marca": "Florida",
+        "modelo": "Clasico",
+        "precio": 620,
+        "img": "despolvillador-florida.jpg"
+    },
+    {
+        "tipo": "cepillo",
+        "nombre": "Cepillo Limpia Bombillas",
+        "marca": "Bazar",
+        "modelo": "Cepillin 2.0",
+        "precio": 250,
+        "img": "cepillo-bazar.jpg"
+    },
+    {
+        "tipo": "cepillo",
+        "nombre": "Cepillo Limpia Bombilla Romyl",
+        "marca": "Romyl",
+        "modelo": "Clasico",
+        "precio": 400,
+        "img": "cepillo-romyl.jpg"
+    }
+
+]

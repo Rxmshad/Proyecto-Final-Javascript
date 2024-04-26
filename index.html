@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8c130e0191.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../img/logo-mate.svg">
+    <title>Matero - ECommerce</title>
+</head>
+<body class="inicioPrincipal">    
+    <nav class="inicioPrincipal__nav">
+        <div class="navBar-titulo">
+            <img src="./img/mate-2.svg" alt="logo mate" class="logoMate"><h1 class="tituloPagina">Matero</h1> 
+        </div>
+        <div>
+            <ul class="inicioPrincipal__nav--logCarrito">
+                <li><a href=""><i class="fa-solid fa-house"></i></a></li>
+                <li><a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" id="carrito">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </a></li>
+                <li><a href="./pages/login.html"><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="inicioPrincipal__info">
+        <div class="inicioPrincipal__info--bienvenida">
+            <h1 class="tituloPagina">Bienvenido a Matero E-Commerce</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit est consectetur obcaecati labore doloribus recusandae maxime, non id ullam voluptates, quos quis ea assumenda reiciendis beatae aliquam quas. Quos, reprehenderit.</p>
+            <p>Nemo perspiciatis, rerum voluptas, quisquam molestiae inventore quasi explicabo unde, veniam odit consequuntur dolorum. Possimus qui perspiciatis magnam inventore voluptatem autem consectetur ratione maxime ex? Ex cum totam nostrum quas.</p>
+            <p>Id facere rerum sed ducimus, quo repellat praesentium suscipit eius inventore voluptate perferendis quibusdam dolor omnis quisquam nesciunt iure impedit. Illo voluptas suscipit aut soluta earum, voluptate accusantium placeat aspernatur?</p>
+            <p>Velit saepe doloremque quam nobis. Suscipit praesentium repellat blanditiis laudantium, culpa facere nisi possimus obcaecati minima voluptates esse, pariatur eligendi dolorum architecto, dolore temporibus maxime ad minus explicabo animi quaerat.</p>
+            <p>Quo quisquam amet corporis saepe modi. Fugiat quos nostrum nulla cumque explicabo ratione mollitia ipsam dicta iste minima. Nisi quia eos et maiores. Corporis velit voluptatum, et a minus dolores.</p>
+        </div> 
+
+        <div class="inicioPrincipal__seccionesProductos">
+            <div class="tarjetaSeccionesProductos">
+                <img class="tarjetaSeccionesProductos__img" src="./img/foto-nuevos-productos.jpg" alt="mate con yerba">
+                <div class="tarjetaSeccionesProductos__flex">
+                    <h3>Conoce nuestros Productos</h3>
+                    <button type="button" class="btn btn-light botonesIndex"><a href="./pages/mostrar-producto.html">Nuestros Productos</a></button>
+                </div>
+
+            </div>
+            <div class="tarjetaSeccionesProductos">
+                <img class="tarjetaSeccionesProductos__img" src="./img/foto-ofertas.jpeg" alt="yerba">
+                <div class="tarjetaSeccionesProductos__flex">
+                    <h3>Conocé sobre Nosotros</h3>
+                    <button type="button" class="btn btn-light botonesIndex"><a href="#nosotros">Sobre Nosotros</a></button>
+                </div>
+            </div>
+
+        </div>   
+
+        <div>
+            <h2 class="separadorSecciones" id="nosotros">Nosotros</h2>
+            <div class="nuestraHistoria">
+                <img src="./img/mate-bienvenida.jpg" class="imgNosotros" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit est consectetur obcaecati labore doloribus recusandae maxime, non id ullam voluptates, quos quis ea assumenda reiciendis beatae aliquam quas. Quos, reprehenderit.</p>
+            <p>Nemo perspiciatis, rerum voluptas, quisquam molestiae inventore quasi explicabo unde, veniam odit consequuntur dolorum. Possimus qui perspiciatis magnam inventore voluptatem autem consectetur ratione maxime ex? Ex cum totam nostrum quas.</p>
+            <p>Id facere rerum sed ducimus, quo repellat praesentium suscipit eius inventore voluptate perferendis quibusdam dolor omnis quisquam nesciunt iure impedit. Illo voluptas suscipit aut soluta earum, voluptate accusantium placeat aspernatur?</p>
+            <p>Velit saepe doloremque quam nobis. Suscipit praesentium repellat blanditiis laudantium, culpa facere nisi possimus obcaecati minima voluptates esse, pariatur eligendi dolorum architecto, dolore temporibus maxime ad minus explicabo animi quaerat.</p>
+            <p>Quo quisquam amet corporis saepe modi. Fugiat quos nostrum nulla cumque explicabo ratione mollitia ipsam dicta iste minima. Nisi quia eos et maiores. Corporis velit voluptatum, et a minus dolores.</p>
+            </div>
+        </div>
+
+        <div>
+            <h2 class="separadorSecciones">Contactanos</h2>
+            <div class="contactoRedes">
+                <a href=""><i class="fa-brands fa-whatsapp contactoRedesIconos"></i></a><a href=""><i class="fa-brands fa-facebook contactoRedesIconos"></i></a><a href=""><i class="fa-brands fa-instagram contactoRedesIconos"></i></a>
+            </div>
+            <div class="contactoMapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0168878894506!2d-58.38375908417492!3d-34.603734465007136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1661470799807!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div class="modal fade modal-lg" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Mi Carrito</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div id="cuerpoCarrito">
+    
+                    
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-warning" id="vaciarCarrito">Vaciar Carrito</button>
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal">Seguir Comprando</button>
+                  <button type="button" class="btn btn-primary" id="finalizarCompra">Finalizar Compra</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+
+    <footer class="inicioPrincipal__footer">
+        <div class="navBar-titulo">
+            <img src="./img/mate-2.svg" alt="logo mate" class="logoMate"><h1 class="tituloPagina">Matero</h1> 
+        </div>
+        <p class="derechosReservados">Derechos Reservados 2022 ©</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.24/dist/sweetalert2.all.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

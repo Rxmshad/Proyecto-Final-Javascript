@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8c130e0191.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../img/logo-mate.svg">
+    <title>Login - Matero</title>
+</head>
+
+<body class="inicioPrincipal">    
+    <nav class="inicioPrincipal__nav">
+      <div class="navBar-titulo">
+        <img src="../img/mate-2.svg" alt="logo mate" class="logoMate"><h1 class="tituloPagina">Matero</h1> 
+      </div>
+      <div>
+          <ul class="inicioPrincipal__nav--logCarrito">
+            <li><a href="../index.html"><i class="fa-solid fa-house"></i></a></li>
+            <li><a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" id="carrito">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a></li>
+            <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+          </ul>
+      </div>
+    </nav>
+
+    <main class="inicioPrincipal__info">
+      <div>
+        <img src="../img/mate-usuario.jpg" class="mate-login" lt="mate">
+        <h2 class="separadorSecciones">Usuarios</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit est consectetur obcaecati labore doloribus recusandae maxime, non id ullam voluptates, quos quis ea assumenda reiciendis beatae aliquam quas. Quos, reprehenderit.</p>
+            <p>Nemo perspiciatis, rerum voluptas, quisquam molestiae inventore quasi explicabo unde, veniam odit consequuntur dolorum. Possimus qui perspiciatis magnam inventore voluptatem autem consectetur ratione maxime ex? Ex cum totam nostrum quas.</p>
+            <p>Id facere rerum sed ducimus, quo repellat praesentium suscipit eius inventore voluptate perferendis quibusdam dolor omnis quisquam nesciunt iure impedit. Illo voluptas suscipit aut soluta earum, voluptate accusantium placeat aspernatur?</p>
+            <p>Velit saepe doloremque quam nobis. Suscipit praesentium repellat blanditiis laudantium, culpa facere nisi possimus obcaecati minima voluptates esse, pariatur eligendi dolorum architecto, dolore temporibus maxime ad minus explicabo animi quaerat.</p>
+            <p>Quo quisquam amet corporis saepe modi. Fugiat quos nostrum nulla cumque explicabo ratione mollitia ipsam dicta iste minima. Nisi quia eos et maiores. Corporis velit voluptatum, et a minus dolores.</p>
+      </div>  
+      <h2 class="separadorSecciones">Login</h2>
+        <div class="inicioPrincipal__info--bienvenida">
+          <div class="d-flex">
+            <form id="formularioRegistro" class="col-6 formulario formulariosLogin">
+                <h1 class="tituloRegistro">Registro</h1>
+                <div class="form-row">
+                  <div class="form-group col-md-6 bloqueOpciones">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail">
+                  </div>
+                  <div class="form-group col-md-6 bloqueOpciones">
+                    <label for="inputUsuario">Usuario</label>
+                    <input type="text" class="form-control" id="inputUsuario">
+                  </div>
+                  <div class="form-group col-md-6 bloqueOpciones">
+                    <label for="inputPassword">Password</label>
+                    <input type="password" class="form-control" id="inputPassword">
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6 bloqueOpciones">
+                    <label for="inputCiudad">Ciudad</label>
+                    <input type="text" class="form-control" id="inputCiudad">
+                  </div>
+                  <div class="form-group col-md-6 bloqueOpciones">
+                    <label for="inputProvincia">Provincia</label>
+                    <input id="inputProvincia" class="form-control">
+                  </div>
+                </div>
+                <button type="submit" id="botonFormulario" class="btn btn-primary botonLogin">Registrarse</button>
+                <div id="registroExito">
+                  
+                </div>
+              </form>
+           
+              <form id="formularioIngreso" class="col-6 formulariosLogin">
+                <h1 class="tituloInicioSesion">Inicio de Sesión</h1>
+                <div class="form-row">
+                  <div class="form-group col-md-6 bloqueOpciones">
+                    <label for="inputUsuarioIngreso">Usuario</label>
+                    <input type="text" class="form-control" id="inputUsuarioIngreso">
+                  </div>
+                  <div class="form-group col-md-6 bloqueOpciones">
+                    <label for="inputPasswordIngreso">Password</label>
+                    <input type="password" class="form-control" id="inputPasswordIngreso">
+                  </div>
+                </div>
+                <button type="submit" id="botonFormularioIngreso" class="btn btn-primary botonLogin">Ingresar</button>
+                <div id="mensajeInicioSesion">
+                </div>
+              </form>
+            </div>
+         </div>
+
+         <div class="modal fade modal-lg" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Mi Carrito</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div id="cuerpoCarrito">
+  
+                  <h4 id="totalCarrito">Total: </h4>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" id="vaciarCarrito">Vaciar Carrito</button>
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Seguir Comprando</button>
+                <button type="button" class="btn btn-primary" id="finalizarCompra">Finalizar Compra</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+
+    <footer class="inicioPrincipal__footer">
+      <div class="navBar-titulo">
+        <img src="../img/mate-2.svg" alt="logo mate" class="logoMate"><h1 class="tituloPagina">Matero</h1> 
+      </div>
+      <p class="derechosReservados">Derechos Reservados 2022 ©</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.24/dist/sweetalert2.all.min.js"></script>
+    <script src="../script.js"></script>
+    
+</body>
+</html>
